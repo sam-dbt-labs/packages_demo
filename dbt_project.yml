@@ -1,0 +1,8 @@
+name: dbt_internal_utils
+version: "0.1.0"
+config-version: 2
+
+macro-paths: ["macros"]
+test-paths: ["tests"]
+
+require-dbt-version: ">=1.0.0"
